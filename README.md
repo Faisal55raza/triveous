@@ -73,15 +73,21 @@ PRODUCT API's
 CART API's
 
 -POST `/triveous/cart/add/:id` ADD A PRODUCT TO CART
+
 -GET `/triveous/cart/get`  GET ALL CART ITEMS
+
 -PUT `/triveous/cart/increase/:id` INCREASE QUANTITY OF A CART ITEM
+
 -PUT `/triveous/cart/decrease/:id` DECREASE QUANTITY OF A CART ITEM
+
 -DELETE `/triveous/cart/delete` DELETE A CART ITEM
 
 ORDER API's
 
 -POST `/triveous/order/new` CREATE A ORDER
+
 -GET `/triveous/orders/me` GET USER ORDER HISTORY
+
 -GET `/triveous/order/:id` GET A SINGLE ORDER
 
 
